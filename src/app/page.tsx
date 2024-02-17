@@ -1,11 +1,10 @@
 import React from 'react'
-import Home from './Home/page'
 
 function page() {
   return (
-    <div>Next First Project
-      
-    </div>
+    <main className='min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]'>
+      <div>Next First Project</div>
+    </main>
   )
 }
 
