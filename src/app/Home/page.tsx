@@ -1,11 +1,8 @@
 import React from 'react'
-import Home from './Home/page'
 
 function page() {
   return (
-    <div>Next First Project
-      
-    </div>
+    <div>page</div>
   )
 }
 
