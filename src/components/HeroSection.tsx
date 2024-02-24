@@ -3,9 +3,10 @@ import { Spotlight } from './ui/Spotlight'
 import Link from 'next/link'
 import { Button } from './ui/moving-border'
 import { cn } from '@/utils/cn'
+import { SparklesCore } from './ui/sparkles'
 
 function HeroSection() {
-    return (    
+    return (   
         <div
     className=" h-auto md:h-[38rem] w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto  pb-0 md:py-0"
     >
@@ -13,7 +14,17 @@ function HeroSection() {
         className="-top-40 left-0 md:left-60 md:-top-20"
         fill="white"
       />
-        <div className="p-4 relative z-10 w-full text-center" >
+
+    <SparklesCore
+            id="tsparticlesfullpage"
+            background="transparent"
+            minSize={0.6}
+            maxSize={1.4}
+            particleDensity={100}
+            className="w-full h-full absolute"
+            particleColor="#FFFFFF"
+        /> 
+        <div className="p-10 relative z-10 w-full text-center" >
             <h1
             className="mt-20 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400"
             >Master the art of music</h1>
@@ -33,7 +44,6 @@ function HeroSection() {
         </div>
         
         </div>
-
     )
 }
 
