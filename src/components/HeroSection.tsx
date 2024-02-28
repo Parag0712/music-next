@@ -15,7 +15,7 @@ function HeroSection() {
         fill="white"
       />
 
-    <SparklesCore
+    {/* <SparklesCore
             id="tsparticlesfullpage"
             background="transparent"
             minSize={0.6}
@@ -23,7 +23,7 @@ function HeroSection() {
             particleDensity={100}
             className="w-full h-full absolute"
             particleColor="#FFFFFF"
-        /> 
+        />  */}
         <div className="p-10 relative z-10 w-full text-center" >
             <h1
             className="mt-20 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400"

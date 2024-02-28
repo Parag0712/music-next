@@ -9,8 +9,10 @@ import { cn } from "@/utils/cn";
 import CustomButton from "./Button";
 import { Boxes } from "./ui/background-boxes";
 
+
 export function Card() {
-    const featuredCourses = courseData.courses.filter((course: Course) => course.isFeatured)
+    
+    const featuredCourses = courseData.courses.filter((course) => course.isFeatured)
     return (
             <div className="p-10 relative overflow-hidden">
                 <div>
@@ -22,7 +24,7 @@ export function Card() {
                 </div>
                 <div className="mt-10 mx-8">
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
-                        {featuredCourses.map((course: Course) => (
+                        {featuredCourses.map((course) => (
                             <div key={course.id} className="flex justify-center">
                                 <BackgroundGradient
                                     className="flex flex-col rounded-[22px] bg-white dark:bg-black  h-full max-w-sm">
