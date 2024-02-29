@@ -6,6 +6,7 @@ import { InfiniteMovingCards } from '@/components/ui/infinite-moving-cards'
 import React from 'react'
 import FeaturedWebinar from '@/components/FeaturedWebinar'
 import Instructor from '@/components/Instructor'
+import Footer from '@/components/Footer'
 
 
 
@@ -19,6 +20,7 @@ function page() {
           <CardMove />
           <FeaturedWebinar />
           <Instructor />
+          <Footer />    
     </main>
   )
 }
